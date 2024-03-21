@@ -16,14 +16,14 @@ resources, or cause panics.
 package elf
 
 import (
+	"binject-debug/internal/saferio"
+	"binject-debug/internal/zstd"
 	"bytes"
 	"compress/zlib"
 	"debug/dwarf"
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"binject-debug/internal/saferio"
-	"binject-debug/internal/zstd"
 	"io"
 	"os"
 	"strings"

@@ -5,10 +5,10 @@
 package elf
 
 import (
+	"binject-debug/dwarf"
 	"bytes"
 	"compress/gzip"
 	"compress/zlib"
-	"debug/dwarf"
 	"encoding/binary"
 	"errors"
 	"fmt"

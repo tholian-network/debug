@@ -8,7 +8,7 @@ import (
 	"log"
 )
 
-// Bytes - returns the bytes of an Elf file
+// Bytes - returns the bytes of an ELF file
 func (f *File) Bytes() ([]byte, error) {
 
 	bytesWritten := uint64(0)
