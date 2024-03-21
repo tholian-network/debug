@@ -16,10 +16,10 @@ resources, or cause panics.
 package plan9obj
 
 import (
+	"binject-debug/internal/saferio"
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"binject-debug/internal/saferio"
 	"io"
 	"os"
 )
